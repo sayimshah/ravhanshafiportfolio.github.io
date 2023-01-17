@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 from django.contrib.messages import constants as messages
-import django_heroku
+# import django_heroku
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -139,4 +139,4 @@ MESSAGE_TAGS={
     messages.ERROR:'danger'
 }
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
